@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				files: {
 					'dist/foundation.css': 'node_modules/foundation-sites/assets/foundation.scss',
 					'dist/style.css': 'css/style.scss',
-					'dist/media.scss': 'css/media.scss'
+					'dist/media.css': 'css/media.scss'
 				}
 			}
 		},
@@ -15,9 +15,9 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'dist/output.css': [
-						'css/foundation.css', 
-						'css/style.css',
-						'css/media.css'
+						'dist/foundation.css', 
+						'dist/style.css',
+						'dist/media.css'
 						]
 				}
 			}
