@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.eot?v=1.1.0");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../fonts/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../fonts/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../fonts/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "OpenSans"; }
+
+.row {
+  max-width: 1440px; }
+
+/*header start*/
+.header-nav .menu > li > a, a.more-dogs-button {
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+
+.header-nav .menu > li > a:hover {
+  opacity: .8; }
+
+a.more-dogs-button:hover {
+  opacity: 0.9; }
+
+.header-banner {
+  background: url("../img/header_shadow.png") 0 0 repeat-x, url("../img/header_background.png") 0 0 repeat;
+  min-height: 488px; }
+
+.header-nav .menu > li > a {
+  font-size: 22px;
+  padding: 36px 38px;
+  color: #2e2e2e;
+  font-family: OpenSans; }
+
+.header-nav {
+  position: relative;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.2);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.2);
+  box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.2); }
+
+/*header end*/
+/*footer*/
+footer {
+  background-color: #efefef;
+  color: #555559;
+  line-height: 74px;
+  font-size: 14px; }
+
+.footer-text {
+  padding: 0 18px; }
+
+/*footer end*/
+.more-dogs {
+  text-align: center;
+  padding: 103px 0 177px;
+  background-color: #fbfafa; }
+
+.more-dogs-icon {
+  width: 92px;
+  height: 92px;
+  background: url("../img/hotdog.png") 0 0 no-repeat;
+  margin: 10px auto; }
+
+.more-dogs-title {
+  color: #555559;
+  font-size: 53px;
+  margin: 20px 0 83px;
+  letter-spacing: -1.5px;
+  line-height: 72px; }
+
+a.more-dogs-button {
+  background-color: #286782;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 55px;
+  padding: 19px 25px;
+  border-radius: 4px; }
+
+.hotdog-list-item {
+  display: table; }
+
+.hotdog-list-item > div {
+  display: table-cell;
+  float: none;
+  vertical-align: middle; }
+
+.hotdog-list-title {
+  color: #555559;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  padding: 0px 0px 30px 30px; }
+
+.hotdog-list-title::before {
+  content: "";
+  position: absolute;
+  left: -31px;
+  top: 17px;
+  width: 31px;
+  height: 3px;
+  background-color: #286782; }
+
+.hotdog-list-text {
+  padding-left: 30px;
+  color: #555559;
+  font-size: 18px;
+  line-height: 24px; }
+
+.hotdog-list-description {
+  padding: 0px 8%; }
+
+/*# sourceMappingURL=style.css.map */
